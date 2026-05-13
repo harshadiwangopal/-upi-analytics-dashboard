@@ -16,12 +16,12 @@ col2.metric("Peak Growth Rate", "77%", "2022-23")
 col3.metric("Highest Month", "March", "FY End Effect")
 
 #loding files from2021-2026 (combining)
-files={
-    '2021-22': 'data/upi_2021_22.xlsx',
-    '2022-23': 'data/upi_2022_23.xlsx',
-    '2023-24': 'data/upi_2023_24.xlsx',
-    '2024-25': 'data/upi_2024_25.xlsx',
-    '2025-26': 'data/upi_2025_26.xlsx',
+files = {
+    '2021-22': 'upi_2021_22.xlsx',
+    '2022-23': 'upi_2022_23.xlsx',
+    '2023-24': 'upi_2023_24.xlsx',
+    '2024-25': 'upi_2024_25.xlsx',
+    '2025-26': 'upi_2025_26.xlsx',
 }
 
 df = []
